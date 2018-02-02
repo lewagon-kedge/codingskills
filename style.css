@@ -1,0 +1,156 @@
+/* style.css */
+body{
+  background: #F7F8F9;
+  color: #495057;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  font-family: 'Bungee Shade', cursive;
+  font-weight: lighter;
+  font-size: 100px;
+}
+h2 {
+  font-weight: lighter;
+  font-size: 8px;
+}
+
+nav, .nav-tabs li a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+
+/* a {
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+} */
+
+#banner{
+  text-align: center;
+  background-image: url(banner.jpeg);
+  background-position: center;
+  background-size: cover !important;
+  padding: 150px;
+  color: white;
+  height: calc(100vh - 70px);
+}
+#banner h1 {
+  /* Yellow */
+  color: #fff007;
+  font-size: 100px;
+}
+#banner p {
+  font-family: 'Roboto', sans-serif;
+  color: #495057;
+  opacity: 0.8;
+  font-size: 45px;
+  font-weight: 200;
+  text-shadow: 1px 1px 3px white;
+}
+
+#banner a {
+  margin: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  color: #495057;
+  /* border-color: #f84c4f; */
+  padding: 10px 30px;
+}
+
+#banner a:hover {
+  /* color: white;
+  background-color: #f84c4f; */
+}
+
+.landing-card {
+  text-align: center;
+  padding: 20px;
+  font-weight: 100;
+  margin:30px 10px;
+  background-color: #fafafa;
+  border-radius: 3px;
+}
+
+.landing-card img {
+  margin-bottom: 10px
+}
+
+.landing-card h2 {
+  font-size: 30px;
+}
+
+.landing-card p {
+  font-size: 20px;
+}
+
+.course-card {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  margin:10px;
+}
+
+.course-card h5 {
+  font-size:25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.course-card p {
+  font-size:17px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.course-card a {
+  font-size:25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+#course-title {
+  padding: 100px 30px;
+  text-align: center;
+  /* background-image: url(images/work.jpg); */
+  background-position: center;
+  background-size: cover !important;
+  margin-bottom: 10vh;
+}
+
+#course-title h1 {
+    color: #dc3545;
+  }
+
+#teams {
+  margin: 50px 0px;
+}
